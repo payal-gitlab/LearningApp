@@ -36,3 +36,6 @@
     transform: rotate(360deg);
   }
 }
+progress::-webkit-progress-value {
+  background-color: red;
+}
