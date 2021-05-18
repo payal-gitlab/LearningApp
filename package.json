@@ -17,8 +17,8 @@
   "scripts": {
     "server": "cd backend && nodemon index.js",
     "client":"react-scripts start",
-    "start":"concurrently - kill-others \"npm run server\" \"npm run client\""
-   
+    "start":"concurrently - kill-others \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "npm install && npm run build"
   },
   "eslintConfig": {
     "extends": [
